@@ -8,7 +8,7 @@ file_data.pop(0)
 #sorting the data for height
 new_data = []
 for i in range(len(file_data)):
-    n_num = file_data[i][1]
+    n_num = file_data[i][1] # this specifies that it is in column 1 which is the height!
     new_data.append(float(n_num))
 
 #orders from least to greatest
